@@ -2,9 +2,7 @@
 	include_once("../uvcore/uvcore.php");
 	
 	$sociallinks = uvAddMedia($sociallinks);
-	
 	uvGetMainFeed();
-	
 	$sociallinkslist = uvGetFeed($sociallinks);
 	$sociallinks = uvGetSocialList($sociallinkslist);
 	
