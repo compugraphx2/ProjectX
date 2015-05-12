@@ -6,7 +6,6 @@
 	uvGetMainFeed();
 	
 	$sociallinkslist = uvGetFeed($sociallinks);
-	
 	$sociallinks = uvGetSocialList($sociallinkslist);
 	
 	include_once("../global/functions.php");
